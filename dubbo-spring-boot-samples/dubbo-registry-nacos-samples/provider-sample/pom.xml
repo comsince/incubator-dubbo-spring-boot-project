@@ -21,7 +21,7 @@
     <parent>
         <groupId>org.apache.dubbo.samples</groupId>
         <artifactId>dubbo-spring-boot-registry-nacos-samples</artifactId>
-        <version>${revision}</version>
+        <version>2.7.2-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -43,7 +43,7 @@
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>
-            <version>${revision}</version>
+            <version>2.7.2-SNAPSHOT</version>
         </dependency>
 
         <!-- Dubbo -->
@@ -56,7 +56,7 @@
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-registry-nacos</artifactId>
-            <version>${revision}</version>
+            <version>2.7.2-SNAPSHOT</version>
         </dependency>
 
         <dependency>
@@ -68,7 +68,7 @@
         <dependency>
             <groupId>org.apache.dubbo.samples</groupId>
             <artifactId>dubbo-spring-boot-sample-api</artifactId>
-            <version>${revision}</version>
+            <version>2.7.2-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>

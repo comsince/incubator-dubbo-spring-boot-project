@@ -21,7 +21,7 @@
     <parent>
         <artifactId>dubbo-spring-boot-samples</artifactId>
         <groupId>org.apache.dubbo.samples</groupId>
-        <version>${revision}</version>
+        <version>2.7.2-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
