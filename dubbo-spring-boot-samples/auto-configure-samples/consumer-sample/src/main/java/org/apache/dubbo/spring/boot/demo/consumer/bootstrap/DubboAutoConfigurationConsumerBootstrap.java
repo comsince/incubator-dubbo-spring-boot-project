@@ -35,7 +35,7 @@ public class DubboAutoConfigurationConsumerBootstrap {
 
     private final Logger logger = LoggerFactory.getLogger(getClass());
 
-    @Reference
+    @Reference(version = "1.0.0")
     private DemoService demoService;
 
     public static void main(String[] args) {
@@ -44,6 +44,14 @@ public class DubboAutoConfigurationConsumerBootstrap {
 
     @Bean
     public ApplicationRunner runner() {
-        return args -> logger.info(demoService.sayHello("mercyblitz"));
+        for(;;){
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            logger.info(demoService.sayHello("mercyblitz"));
+        }
+        //return args -> logger.info(demoService.sayHello("mercyblitz"));
     }
 }

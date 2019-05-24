@@ -36,4 +36,33 @@
         <module>provider-sample</module>
     </modules>
 
+    <properties>
+        <metrics_version>2.0.1</metrics_version>
+        <fastjson_version>1.2.46</fastjson_version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba.middleware</groupId>
+            <artifactId>metrics-core-api</artifactId>
+            <version>${metrics_version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.middleware</groupId>
+            <artifactId>metrics-core-impl</artifactId>
+            <version>${metrics_version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.middleware</groupId>
+            <artifactId>metrics-common</artifactId>
+            <version>${metrics_version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson_version}</version>
+        </dependency>
+    </dependencies>
+
 </project>

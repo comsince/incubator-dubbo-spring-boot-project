@@ -8,6 +8,6 @@ dubbo:
   metadata-report:
      address: zookeeper://zk-test-master1.meizu.mz:2181
   metric:
-    port: 20882
+    port: 30880
     protocol: dubbo
 
